@@ -47,8 +47,43 @@ h2 {
 
 /* Styles the menu list items and floats them to the right of the screen */
 
+#nav-menu,
+#logo {
+    line-height: 3rem;
+}
+
+/* Fixes the line height of the nav-menu and logo to give visual alignment */
+
 #nav-menu li {
     float: right;
     list-style-type: none;
-    margin-right: 25px;
+    margin-right: 1.5rem;
 }
+
+/* Styles the anchors in the nav-menu to remove decoration and set color */
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Gives an underline effect on hover for nav-menu links */
+
+#nav-menu a:hover {
+    border-bottom: .2rem solid rgba(248, 105, 9, .4);
+}
+
+/*Styles the nav-menu link for the active page */
+
+.active {
+    border-bottom: .2rem solid rgba(248, 105, 9, 1);
+
+}
+
+/* Hero-image */
+
+#hero-image {
+    height: 37.5rem;
+    width: 100%;
+    background: url('../images/hero-image.jpg');
+} 
