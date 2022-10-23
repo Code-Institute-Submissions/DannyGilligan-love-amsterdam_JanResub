@@ -43,8 +43,9 @@ h2 {
 /*Navigation menu and links styling */
 
 #nav-menu {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     letter-spacing: 2px;
+    font-weight: 400;
 }
 
 /* Styles the menu list items and floats them to the right of the screen */
