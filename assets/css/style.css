@@ -23,7 +23,8 @@ body {
 
 /* Sets the font type and color for H1 and H2 headings */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -35,4 +36,19 @@ h1, h2 {
 #logo {
     Float: left;
     font-size: 2.5rem;
+}
+
+/*Navigation menu and links styling */
+
+#nav-menu {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+/* Styles the menu list items and floats them to the right of the screen */
+
+#nav-menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
 }
