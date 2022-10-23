@@ -80,10 +80,39 @@ h2 {
 
 }
 
-/* Hero-image */
+/* Hero-image styling*/
+
+/* Creates a fixed container for the hero image */
+
+#hero-container {
+    height: 37.5rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Styles the hero image within the fixed container to allow the zoom animation effect */
 
 #hero-image {
     height: 37.5rem;
     width: 100%;
-    background: url('../images/hero-image.jpg');
-} 
+    background: url('../images/hero-image.jpg') no-repeat center center;
+
+    /* Styles the zoom animation on loading page */
+    animation-name: hero-animation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+
+/* Adds styling for the zoom animation, specifically the zoom level */
+
+@keyframes hero-animation {
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
