@@ -19,6 +19,14 @@ body {
     color: rgba (rgb(0, 0, 0))
 }
 
+/* Header styling with linear gradient */
+
+header {
+    height: 4rem;
+    background-image: linear-gradient(to right, white, rgb(0, 61, 165));
+}
+
+
 /* Headings and logo */
 
 /* Sets the font type and color for H1 and H2 headings */
