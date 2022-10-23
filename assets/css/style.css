@@ -159,44 +159,49 @@ h2 {
 /*Site purpose styling */
 
 #site-purpose {
+    width: 100%;
     text-align: center;
     font-size: 1.5rem;
+}
+
+#site-purpose h2 {
+    width: 100%;
+    background-color: rgb(0, 61, 165);
+    color: white;
     padding: 1.5rem;
-    margin: 1.5rem;
 }
 
 #site-purpose p {
-    padding: 2rem;
+    padding: 1.5rem;
     margin: 2rem;
 }
 
 /* Main menu styling */
 
 #main-menu {
-    height: 37.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-#main-menu-left-stay {
-    padding-top: 30px;
+.main-menu-panel {
     width: 33%;
-    float: left;
-    background-color: blue;
+    text-align: center;
+    height: 10rem;
+    border: .25rem solid rgba(248, 105, 9, 1);
+    margin: 3rem;
+    border-radius: .25rem;
+    background-color: rgba(248, 105, 9, 1);
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
 }
 
-#main-menu-right-go {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    background-color: silver;
+#main-menu a {
+    text-decoration: none;
+    color: white;
 }
-
-#main-menu-centre-eat {
-    width: 33%;
-    margin: 0 auto;
-    background-color: green;
-}
-
-
 
 /* Footer syling below which has been adapted from the Love Running walkthrough project */
 
@@ -223,4 +228,3 @@ footer {
 .social-networks i:hover {
     color: rgb(245, 107, 16);
 }
-
