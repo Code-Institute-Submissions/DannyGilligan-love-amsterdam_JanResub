@@ -197,9 +197,8 @@ h2 {
 }
 
 
-/* Footer */
 
-/* footer */
+/* Footer syling below which has been adapted from the Love Running walkthrough project */
 
 footer {
     height: 150px;
@@ -216,9 +215,9 @@ footer {
 
 .social-networks i {
     font-size: 200%;
-    margin: 5%;
+    margin: 1% 2%;
     padding: 1%;
-    color: #3a3a3a
+    color: rgb(0, 61, 165)
 }
 
 .social-networks i:hover {
