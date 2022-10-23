@@ -156,6 +156,20 @@ h2 {
     position: absolute;
 }
 
+/*Site purpose styling */
+
+#site-purpose {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    margin: 1.5rem;
+}
+
+#site-purpose p {
+    padding: 2rem;
+    margin: 2rem;
+}
+
 /* Main menu styling */
 
 #main-menu {
@@ -180,5 +194,34 @@ h2 {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+
+/* Footer */
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+    list-style-type: none;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 5%;
+    padding: 1%;
+    color: #3a3a3a
+}
+
+.social-networks i:hover {
+    color: rgb(245, 107, 16);
 }
 
