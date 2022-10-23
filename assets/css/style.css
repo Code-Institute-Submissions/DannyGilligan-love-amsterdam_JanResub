@@ -88,6 +88,7 @@ h2 {
     height: 37.5rem;
     width: 100%;
     overflow: hidden;
+    position:relative;
 }
 
 /* Styles the hero image within the fixed container to allow the zoom animation effect */
@@ -103,8 +104,6 @@ h2 {
     animation-fill-mode: forwards;
 }
 
-
-
 /* Adds styling for the zoom animation, specifically the zoom level */
 
 @keyframes hero-animation {
@@ -115,4 +114,30 @@ h2 {
         transform: scale(1);
     }
 }
+
+/* hero image cover text styling */
+
+#hero-cover-text, #hero-cover-text h2 {
+    color: rgb(253, 252, 252);
+    font-size: 4rem;
+}
+
+#hero-cover-text {
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+
+    width: 40rem;
+    height: 8rem;
+    padding: 2rem;
+
+    background-color: rgba(248, 105, 9, 1);
+
+    top: 40%;
+    right: 40%;
+    position: absolute;
+}
+
 
