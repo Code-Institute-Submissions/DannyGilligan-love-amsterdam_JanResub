@@ -16,7 +16,7 @@
 body {
     font-family: 'Rubik', Helvetica, sans-serif;
     font-weight: 300;
-    color: rgba (rgb(0, 0, 0))
+    color: rgb(0, 0, 0);
 }
 
 /* Header styling with linear gradient */
@@ -191,15 +191,15 @@ h2 {
 .main-menu-panel {
     width: 33%;
     text-align: center;
-    height: 10rem;
+    height: 8rem;
     border: .25rem solid rgba(248, 105, 9, 1);
-    margin: 3rem;
+    margin: 5rem;
     border-radius: 2rem;
     background-color: rgba(248, 105, 9, 1);
     color: white;
     font-size: 3rem;
     font-weight: 600;
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 #main-menu a {
