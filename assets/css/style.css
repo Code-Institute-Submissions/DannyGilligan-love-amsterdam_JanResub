@@ -144,7 +144,7 @@ h2 {
     text-align: center;
     font-weight: 200;
     border: .25rem solid rgba(255, 255, 255, 0.979);
-    border-radius: 1rem;
+    border-radius: 2rem;
 
     width: 35%;
     height: 50%;
@@ -194,11 +194,12 @@ h2 {
     height: 10rem;
     border: .25rem solid rgba(248, 105, 9, 1);
     margin: 3rem;
-    border-radius: .25rem;
+    border-radius: 2rem;
     background-color: rgba(248, 105, 9, 1);
     color: white;
     font-size: 3rem;
     font-weight: 600;
+    padding-top: 5rem;
 }
 
 #main-menu a {
