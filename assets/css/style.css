@@ -142,7 +142,16 @@ h2 {
     align-items: center;
 }
 
+#hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #hero-cover-text {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     font-size: 3rem;
     text-transform: capitalize;
     letter-spacing: 2px;
@@ -152,7 +161,7 @@ h2 {
     border-radius: 2rem;
 
     width: 50%;
-    height: 50%;
+    height: 40%;
     padding: 2rem;
 
     background-color: rgba(248, 105, 9, .9);
