@@ -24,7 +24,7 @@ body {
 header {
     height: 4rem;
     background-image: linear-gradient(to right, white 30%, rgb(0, 61, 165) 85%);
-    border-bottom: .1rem solid rgba(248, 105, 9, 1);
+    border-bottom: .1rem solid rgba(255, 81, 0, 0.9);
 }
 
 
@@ -175,6 +175,7 @@ h2 {
 #site-purpose {
     width: 100%;
     font-size: 1.5rem;
+    border-top: .1rem solid rgba(255, 81, 0, 0.9);
 }
 
 #site-purpose h2 {
