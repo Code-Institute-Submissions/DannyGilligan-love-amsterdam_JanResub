@@ -215,14 +215,29 @@ h2 {
     width: 30%;
     text-align: center;
     height: 8rem;
- 
     margin: 0 auto;
     border-radius: 2rem;
     background-color: rgba(255, 81, 0, 0.9);
     color: white;
     font-size: 2.5rem;
     font-weight: 600;
+    transition: 0.3s;
+}
 
+.main-menu-panel:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    height: 8rem;
+    margin: 0 auto;
+    border-radius: 2rem;
+    background-color: rgb(0, 61, 165);
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    
 }
 
 #main-menu a {
