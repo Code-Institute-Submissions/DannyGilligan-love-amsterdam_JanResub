@@ -183,6 +183,7 @@ h2 {
     background-color: rgb(0, 61, 165);
     color: white;
     text-align: center;
+    margin: 0 auto;
 }
 
 #site-purpose p {
