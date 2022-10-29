@@ -77,6 +77,7 @@ h2 {
 #nav-menu a {
     text-decoration: none;
     color: white;
+    transition: 0.3s;
 }
 
 /*Gives an underline effect on hover for nav-menu links */
@@ -266,7 +267,8 @@ footer {
     font-size: 200%;
     margin: 1% 2%;
     padding: 1%;
-    color: rgb(0, 61, 165)
+    color: rgb(0, 61, 165);
+    transition: 0.3s;
 }
 
 .social-networks i:hover {
