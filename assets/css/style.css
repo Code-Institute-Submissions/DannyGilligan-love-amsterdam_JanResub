@@ -198,6 +198,35 @@ h2 {
     text-align: center;
 }
 
+#site-purpose-left {
+    width: 40%;
+    float: left;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#site-purpose-right {
+    width: 40%;
+    float: right;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+hr {
+    border-top: .25rem solid rgba(255, 81, 0, 0.9);
+    width: 100%;
+    margin: .25rem 0;
+}
+
+.site-purpose-left-heading {
+    text-align: center;
+    width: 70%;
+    float: left;
+    clear: both;
+    margin-bottom: 1.5rem;
+    margin-left: 50%;
+}
+
 /* Main menu styling */
 
 #main-menu {
