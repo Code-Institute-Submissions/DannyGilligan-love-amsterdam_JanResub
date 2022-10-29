@@ -179,12 +179,17 @@ h2 {
     border-top: .1rem solid rgba(255, 81, 0, 0.9);
 }
 
+/* Below is the styling for the h2 heading on the site purpose section on the home page */
+
 #site-purpose>h2 {
     width: 90%;
     background-color: rgb(0, 61, 165);
     color: white;
     text-align: center;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
     Padding-left: 5%;
     padding-right: 5%;
     padding-top: 2rem;
