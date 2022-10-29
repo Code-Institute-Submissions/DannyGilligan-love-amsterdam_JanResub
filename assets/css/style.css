@@ -179,11 +179,13 @@ h2 {
 }
 
 #site-purpose h2 {
-    width: 100%;
+    width: 90%;
     background-color: rgb(0, 61, 165);
     color: white;
     text-align: center;
     margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #site-purpose p {
