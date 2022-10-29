@@ -185,21 +185,25 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 0 auto;
+    align-items: center;
+    margin: auto;
 }
 
 .main-menu-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30%;
     text-align: center;
     height: 8rem;
     border: .25rem solid rgba(248, 105, 9, 1);
-    margin: 2rem;
+    margin: 0 auto;
     border-radius: 2rem;
     background-color: rgba(248, 105, 9, 1);
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
-    padding-top: 4rem;
+    
 }
 
 #main-menu a {
