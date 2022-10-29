@@ -201,14 +201,14 @@ h2 {
     width: 50%;
     float: left;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 #site-purpose-right {
     width: 50%;
     float: right;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 /* Below is the styling for the horizontal break for the site purpose headings shown on the home page */
@@ -244,13 +244,22 @@ hr {
 /* Below is the styling for the paragraphs appearing in the site purpose section under each heading (note: this styling is impactful on the layout for the entire site purpose section on the home page) */
 
 #site-purpose p {
-    height: 10rem;
+    height: 8rem;
     width: 100%;
     text-align: center;
     margin: 2rem auto;
     font-weight: 400;
 }
 
+/* Below is the styling for the 'prompt to choose option' from the main menu on the home page, this will be shown below the site purpose section */
+
+#prompt-to-choose-option {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    margin-top: 0;
+}
 
 /* Main menu styling */
 
