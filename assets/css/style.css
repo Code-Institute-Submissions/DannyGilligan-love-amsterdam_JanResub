@@ -19,12 +19,17 @@ body {
     color: rgb(0, 0, 0);
 }
 
-/* Header styling with linear gradient */
+
+/* HEADER STYLING */
+
+/* Header styling with linear gradient and sticky position */
 
 header {
     height: 4rem;
     background-image: linear-gradient(to right, white 30%, rgb(0, 61, 165) 85%);
     border-bottom: .1rem solid rgba(255, 81, 0, 0.9);
+    position: sticky;
+    top: 0;
 }
 
 
@@ -456,6 +461,7 @@ h3 {
 .content-button {
     margin-left: 2rem;
     margin-right: 2rem;
+    margin-top: 2rem;
     border-radius: 2rem;
     padding: 2rem;
     text-align: center;
@@ -472,6 +478,7 @@ h3 {
 .content-button:hover {
     margin-left: 2rem;
     margin-right: 2rem;
+    margin-top: 2rem;
     border-radius: 2rem;
     padding: 2rem;
     text-align: center;
