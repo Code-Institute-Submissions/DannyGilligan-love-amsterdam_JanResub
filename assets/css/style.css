@@ -369,6 +369,13 @@ hr {
     cursor: pointer;
 }
 
+/* Targets the required field <p> text on contact form */
+
+.contact-form > p {
+    font-weight: 600;
+    margin: 1rem;
+}
+
 
 /* Footer syling below which has been adapted from the Love Running walkthrough project */
 
