@@ -169,6 +169,7 @@ h2 {
 
 #hero-cover-text h3 {
     font-weight: 400;
+    border-radius: 2rem;
 }
 
 /*Site purpose styling */
@@ -318,7 +319,7 @@ hr {
     max-width: 60%;
     padding: 4rem;
     color: white;
-    border-radius: .25rem;
+    border-radius: 2rem;
 }
 
 /* Targets the for header */
@@ -377,6 +378,55 @@ hr {
     font-weight: 600;
     margin: 1rem;
 }
+
+/* CONTENT STYLING */
+
+/* Styling below targets the main content container within which the individual item 'content card' will sit */
+
+.content-container {
+    width: 60%;
+    margin: 5rem auto;
+    text-align: center;
+    border: .25rem solid rgba(226, 63, 191, 0.9);
+}
+
+/*Styling below targets the 'content card' within the container */
+
+.content-card {
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.content-card h2, h3 {
+    background-color: rgba(255, 81, 0, 0.9);
+    color: white;
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+}
+
+.content-card h2 {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.content-card h3 {
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+/* Styling below targets the images within the content card */
+
+.content-image-container {
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.content-image {
+    width: 100%;
+    height: auto;
+}
+
 
 
 /* Footer syling below which has been adapted from the Love Running walkthrough project */
