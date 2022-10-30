@@ -434,7 +434,7 @@ h3 {
 .content-image-container {
     width: 50%;
     height: 10%;
-    margin: 2rem auto;
+    margin: 3rem auto;
     border-radius: 2rem;
     overflow: hidden;
     object-fit: cover;
@@ -448,11 +448,14 @@ h3 {
 /* Styling below targets the button links to external sites on each content card */
 
 .content-link-container {
-    display: inline;
+    display: flex;
+    justify-content:center;
+    margin: 3rem;
 }
 
 .content-button {
-    margin: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     border-radius: 2rem;
     padding: 1rem;
     text-align: center;
@@ -463,7 +466,24 @@ h3 {
     color: white;
     cursor: pointer;
     text-decoration: none;
+    transition: 0.3s;
 }
+
+.content-button:hover {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(255, 81, 0, 0.9);
+    border: .2rem solid white;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 
 /* FOOTER STYLING */
 
