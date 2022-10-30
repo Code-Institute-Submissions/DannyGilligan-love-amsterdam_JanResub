@@ -334,7 +334,8 @@ hr {
 
 .form-input {
     width: 100%;
-    font-size: 1.5rem;
+    height: 2rem;
+    font-size: 1.2rem;
     font-weight: 400;
     margin: 1rem;
     border-radius: .25rem;
@@ -342,15 +343,15 @@ hr {
 
 /* Targets the labels for the form inputs */
 
-.contact-form > label {
+.contact-form>label {
     font-size: 1.2rem;
     font-weight: 500;
-    padding-left: 1rem;
+    padding: 1rem;
 }
 
 /* Targets the textarea form input */
 
-.contact-form > textarea {
+.contact-form>textarea {
     height: 18rem;
 }
 
@@ -372,7 +373,7 @@ hr {
 
 /* Targets the required field <p> text on contact form */
 
-.contact-form > p {
+.contact-form>p {
     font-weight: 600;
     margin: 1rem;
 }
