@@ -39,36 +39,28 @@
         </nav>
 
     </header>
-    <section>
 
-        <form method="post" action="https://formdump.codeinstitute.net/" id="contact">
-            <h2>Do you have a question? Or, perhaps you'd like to give us some feedback?<br>Just use the form below to get in touch with us and make our day!</h2>
-            
-                <label for="fname">First Name</label>
-                <input id="fname" type="text" name="first_name" required>
-                
-                <label for="lname">Last Name</label>
-                <input id="lname" type="text" name="last_name" required>
-                
-                <label for="email">Email Address</label>
-                <input id="email" type="email" name="email_address" placeholder="email@address.com"required>
-                
-                <label for="stay">Where to Stay</label>
-                <input id="stay" type="radio" name="message_context" value="stay" required>
-                
-                <label for="eat">Where to Eat</label>
-                <input id="eat" type="radio" name="message_context" value="eat">
-                
-                <label for="go">Where to Go</label>
-                <input id="go" type="radio" name="message_context" value="go">
+    <!-- Below is the structure of the contact form and related text area to be used-->
 
-                <label for="other">Other</label>
-                <input id="other" type="radio" name="message_context" value="other">
+    <section class="contact-form-section">
 
-                <textarea name="message" form="contact">Type your message here..</textarea>
-                
-                <input type="submit" value="Send Message!">
-            
+        <form method="post" action="https://formdump.codeinstitute.net/" id="contact" class="contact-form">
+            <h2>Do you have a question, or perhaps some feedback for us?<br>Just use the form below to
+                get in touch with us!</h2>
+
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="first_name" required class="form-input">
+
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" name="last_name" required class="form-input">
+
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email_address" placeholder="email@address.com" required class="form-input">
+
+            <textarea name="message" form="contact" class="form-input" placeholder="Type your message here.."></textarea>
+
+            <input class="send-message" type="submit" value="Send Message!">
+
         </form>
 
     </section>
