@@ -413,9 +413,10 @@ h3 {
     border-top-right-radius: 2rem;
 }
 
-.content-card h3 {
+.content-card>h3 {
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    margin-bottom: 4rem;
 }
 
 .content-card>p {
@@ -434,6 +435,8 @@ h3 {
 .content-image-container {
     width: 70%;
     margin: 2rem auto;
+    border-radius: 2rem;
+    overflow: hidden;
 }
 
 .content-image {
