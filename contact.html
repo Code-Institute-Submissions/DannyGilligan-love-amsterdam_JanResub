@@ -41,6 +41,35 @@
     </header>
     <section>
 
+        <form method="post" action="https://formdump.codeinstitute.net/" id="contact">
+            <h2>Do you have a question? Or perhaps you'd like to give us some feedback?<br>Just use the form below to get in touch with us and make our day!</h2>
+            
+                <label for="fname">First Name</label>
+                <input id="fname" type="text" name="first_name" required>
+                
+                <label for="lname">Last Name</label>
+                <input id="lname" type="text" name="last_name" required>
+                
+                <label for="email">Email Address</label>
+                <input id="email" type="email" name="email_address" placeholder="email@address.com"required>
+                
+                <label for="road">Where to Stay</label>
+                <input id="road" type="radio" name="running_preference" value="road" required>
+                
+                <label for="trail">Where to Eat</label>
+                <input id="trail" type="radio" name="running_preference" value="trail">
+                
+                <label for="both">Where to Go</label>
+                <input id="both" type="radio" name="running_preference" value="both">
+
+                <label for="both">Other</label>
+                <input id="both" type="radio" name="running_preference" value="both">
+
+                <textarea name="message" form="contact">Type your message here..</textarea>
+                
+                <input type="submit" value="Send Message!">
+            
+        </form>
 
     </section>
 
