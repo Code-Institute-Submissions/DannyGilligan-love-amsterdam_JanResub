@@ -389,7 +389,6 @@ hr {
     width: 60%;
     margin: 5rem auto;
     text-align: center;
-    border: .25rem solid rgba(226, 63, 191, 0.9);
 }
 
 /*Styling below targets the 'content card' and its size, headings and paragraph text within the container */
@@ -397,7 +396,7 @@ hr {
 .content-card {
     width: 100%;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 10rem;
 }
 
 .content-card h2,
@@ -433,10 +432,12 @@ h3 {
 /* Styling below targets the images within the content card */
 
 .content-image-container {
-    width: 70%;
+    width: 50%;
+    height: 10%;
     margin: 2rem auto;
     border-radius: 2rem;
     overflow: hidden;
+    object-fit: cover;
 }
 
 .content-image {
