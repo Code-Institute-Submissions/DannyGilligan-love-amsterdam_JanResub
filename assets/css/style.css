@@ -413,15 +413,21 @@ h3 {
     padding-top: .75rem;
 }
 
-.content-card h2 {
+.content-card>h2 {
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
+    border-top: .20rem solid rgb(0, 61, 165);
+    border-left: .20rem solid rgb(0, 61, 165);
+    border-right: .20rem solid rgb(0, 61, 165);
 }
 
 .content-card>h3 {
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     margin-bottom: 4rem;
+    border-bottom: .20rem solid rgb(0, 61, 165);
+    border-left: .20rem solid rgb(0, 61, 165);
+    border-right: .20rem solid rgb(0, 61, 165);
 }
 
 .content-card>p {
