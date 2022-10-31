@@ -58,6 +58,7 @@ h2 {
 /*NAV MENU STYLING */
 
 #nav-menu {
+    display: block;
     font-size: 1.5rem;
     letter-spacing: 2px;
     font-weight: 400;
