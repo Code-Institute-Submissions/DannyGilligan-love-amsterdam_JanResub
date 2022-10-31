@@ -532,7 +532,7 @@ footer {
 
 /* ---------------------------------------------------------------------------------- MEDIA QUERIES ---------------------------------------------------------------------------------------------- */
 
-/* Below is the media query that will ensure responsiveness for devices with a screen size of 320px by 480px */
+/* ---------------------------------------------Below is the media query that will ensure responsiveness for devices with a screen size of 320px by 480px------------------------------------------------------------------ */
 
 @media screen and (max-width: 320px) {
 
@@ -817,7 +817,7 @@ footer {
 }
 
 
-/* Below is the media query that will ensure responsiveness for devices with a screen size of 481px by 768px */
+/* -----------------------------------------------------------Below is the media query that will ensure responsiveness for devices with a screen size of 481px by 768px---------------------------------------------------------------- */
 
 
 @media screen and (max-width: 481px) {
@@ -831,7 +831,8 @@ footer {
     #logo {
         font-size: 2.3rem;
         margin: .4rem .4rem;
-        letter-spacing: 5px;;
+        letter-spacing: 5px;
+        ;
     }
 
     #nav-menu {
@@ -1103,7 +1104,7 @@ footer {
 
 }
 
-/* Below is the media query that will ensure responsiveness for devices with a screen size of 1024px by 769px (small screens, laptops etc) */
+/* ----------------------------------------Below is the media query that will ensure responsiveness for devices with a screen size of 1024px by 769px (small screens, laptops etc)------------------------------------------------------- */
 
 
 @media screen and (max-width: 1024px) {
@@ -1117,7 +1118,8 @@ footer {
     #logo {
         font-size: 2.3rem;
         margin: .6rem .6rem;
-        letter-spacing: 5px;;
+        letter-spacing: 5px;
+        ;
     }
 
     #nav-menu {
@@ -1389,6 +1391,74 @@ footer {
         padding: 2.5rem;
         font-size: 1.6rem;
         font-weight: 500;
+    }
+
+}
+
+/* ----------------------------Below is the media query that will ensure responsiveness for devices with a screen size of 1200px by 1025px (small screens, laptops etc)-------------------------------------------------------- */
+
+
+@media screen and (max-width: 1200px) {
+
+    /* HERO IMAGE STYLING */
+
+    /* hero image cover text styling */
+
+    #hero-cover-text,
+    #hero-cover-text h2 {
+        font-size: 5rem;
+    }
+
+    #hero-cover-text {
+        font-size: 3rem;
+        width: 75%;
+
+    }
+
+    /* SITE PURPOSE STYLING */
+
+    #site-purpose {
+        font-size: 1.2rem;
+    }
+
+    /* Below is the styling for the 'prompt to choose option' from the main menu on the home page, this will be shown below the site purpose section */
+
+    #prompt-to-choose-option {
+        font-size: 1.4rem;
+    }
+
+    /* MAIN MENU STYLING */
+
+    #main-menu {
+        width: 70%;
+    }
+
+    .main-menu-panel {
+        height: 7rem;
+        font-size: 2.5rem;
+    }
+
+    .main-menu-panel:hover {
+        height: 7rem;
+        font-size: 2.5rem;
+    }
+
+    #main-menu a {
+        font-size: 1.8rem;
+    }
+
+    /* CONTENT STYLING (STAY, EAT AND GO PAGES) */
+
+    /* Styling below targets the main content container within which the individual item 'content card' will sit */
+
+    .content-container {
+        width: 70%;
+    }
+
+    /* Styling below targets the images within the content card */
+
+    .content-image-container {
+        width: 70%;
     }
 
 }
