@@ -925,7 +925,7 @@ footer {
 @media screen and (max-width: 481px) {
 
     header {
-        height: 5.5rem;
+        height: 5.56rem;
         background-image: linear-gradient(to right, white 30%, white 85%);
         border-bottom: .1rem solid rgba(255, 81, 0, 0.9);
     }
@@ -1211,7 +1211,7 @@ footer {
 @media screen and (max-width: 320px) {
 
     header {
-        height: 5rem;
+        height: 4rem;
         background-image: linear-gradient(to right, white 30%, white 85%);
         border-bottom: .1rem solid rgba(255, 81, 0, 0.9);
     }
