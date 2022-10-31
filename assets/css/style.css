@@ -1509,8 +1509,8 @@ footer {
     }
 
     #logo {
-        font-size: 1.3rem;
-        margin: .1rem .2rem;
+        font-size: 1.1rem;
+        margin-left: 2rem;
     }
 
     #nav-menu {
@@ -1521,7 +1521,7 @@ footer {
 
     #nav-menu,
     #logo {
-        line-height: 2.1rem;
+        line-height: 1rem;
     }
 
     #nav-menu li {
