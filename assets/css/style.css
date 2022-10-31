@@ -328,6 +328,7 @@ hr {
     padding: 4rem;
     color: white;
     border-radius: 2rem;
+    border: .20rem solid rgb(0, 61, 165);
 }
 
 /* Targets the for header */
