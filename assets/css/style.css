@@ -532,9 +532,106 @@ footer {
 
 /* ---------------------------------------------------------------------------------- MEDIA QUERIES ---------------------------------------------------------------------------------------------- */
 
-/* ---------------------------------------------Below is the media query that will ensure responsiveness for devices with a screen size of 320px by 480px------------------------------------------------------------------ */
+/* ----------------------------Below is the media query that will ensure responsiveness for devices with a screen size of 1200px by 1025px (large screens, laptops etc)-------------------------------------------------------- */
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 1200px) {
+
+    /* HERO IMAGE STYLING */
+
+    /* hero image cover text styling */
+
+    #hero-cover-text,
+    #hero-cover-text h2 {
+        color: rgba(255, 81, 0, 0.9);
+        font-size: 5rem;
+    }
+
+    #hero-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hero-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hero-cover-text {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        text-align: center;
+        font-weight: 200;
+        border: .25rem solid rgba(255, 81, 0, 0.9);
+        border-radius: 2rem;
+        width: 75%;
+
+    }
+
+    /* SITE PURPOSE STYLING */
+
+    #site-purpose {
+        font-size: 1.2rem;
+    }
+
+
+    /* Below is the styling for the 'prompt to choose option' from the main menu on the home page, this will be shown below the site purpose section */
+
+    #prompt-to-choose-option {
+        font-size: 1.5rem;
+    }
+
+    /* MAIN MENU STYLING */
+
+    #main-menu {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .main-menu-panel {
+        height: 7rem;
+        font-size: 2.5rem;
+    }
+
+    .main-menu-panel:hover {
+        height: 7rem;
+        font-size: 2.5rem;
+    }
+
+    #main-menu a {
+        font-size: 2rem;
+    }
+
+    /* CONTENT STYLING (STAY, EAT AND GO PAGES) */
+
+    /* Styling below targets the main content container within which the individual item 'content card' will sit */
+
+    .content-container {
+        width: 70%;
+    }
+
+    /* Styling below targets the images within the content card */
+
+    .content-image-container {
+        width: 70%;
+    }
+
+}
+
+/* ----------------------------------------Below is the media query that will ensure responsiveness for devices with a screen size of 1024px by 769px (small screens, laptops etc)------------------------------------------------------- */
+
+
+@media screen and (max-width: 1024px) {
 
     header {
         height: 5rem;
@@ -543,13 +640,15 @@ footer {
     }
 
     #logo {
-        font-size: 1.62rem;
-        margin: .2rem .2rem;
+        font-size: 2.3rem;
+        margin: .6rem .6rem;
+        letter-spacing: 5px;
+        ;
     }
 
     #nav-menu {
-        font-size: .9rem;
-        letter-spacing: 1px;
+        font-size: 1.4rem;
+        letter-spacing: 3px;
         font-weight: 600;
     }
 
@@ -559,7 +658,8 @@ footer {
     }
 
     #nav-menu li {
-        margin-right: 1.3rem;
+        margin-right: 1.5rem;
+        margin-top: .5rem;
     }
 
     #nav-menu a {
@@ -583,7 +683,7 @@ footer {
 
     #hero-image {
         height: 30rem;
-        background: url('../images/hero-image-responsive-1.webp') no-repeat center center;
+        background: url('../images/hero-image.jpg') no-repeat center center;
     }
 
     /* Adds styling for the zoom animation, specifically the zoom level */
@@ -592,22 +692,22 @@ footer {
 
     #hero-cover-text,
     #hero-cover-text h2 {
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
     #hero-cover-text {
         font-size: 1.5rem;
         letter-spacing: 2px;
         font-weight: 500;
-        width: 95%;
+        width: 90%;
         height: 20%;
-        padding: 1rem 1rem 8rem 1rem;
-        top: 2rem;
+        padding: 1rem 1rem 6.5rem 1rem;
+        top: 4rem;
     }
 
     #hero-cover-text h3 {
         font-weight: 500;
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
 
@@ -642,7 +742,10 @@ footer {
     /* Below is the styling for the horizontal break for the site purpose headings shown on the home page */
 
     hr {
-        display: none;
+        border-top: .25rem solid rgba(255, 81, 0, 0.9);
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Below is the styling for headings shown on the left side of the site purpose section shown on the home page */
@@ -669,7 +772,7 @@ footer {
 
     #site-purpose p {
         height: 5rem;
-        width: 96%;
+        width: 80%;
         text-align: center;
         margin: 1rem auto;
         font-weight: 400;
@@ -686,7 +789,7 @@ footer {
     /* MAIN MENU STYLING */
 
     #main-menu {
-        width: 100%;
+        width: 60%;
         flex-direction: column;
     }
 
@@ -748,7 +851,7 @@ footer {
     /* Targets the send message button */
 
     .send-message-button {
-        width: 90%;
+        width: 30%;
     }
 
     /* CONTENT STYLING (STAY, EAT AND GO PAGES) */
@@ -800,8 +903,8 @@ footer {
         margin-left: .5rem;
         margin-right: .5rem;
         margin-top: 1rem;
-        padding: 1rem;
-        font-size: 1.2rem;
+        padding: 2.5rem;
+        font-size: 1.6rem;
         font-weight: 500;
     }
 
@@ -809,13 +912,12 @@ footer {
         margin-left: .5rem;
         margin-right: .5rem;
         margin-top: 1rem;
-        padding: 1rem;
-        font-size: 1.2rem;
+        padding: 2.5rem;
+        font-size: 1.6rem;
         font-weight: 500;
     }
 
 }
-
 
 /* -----------------------------------------------------------Below is the media query that will ensure responsiveness for devices with a screen size of 481px by 768px---------------------------------------------------------------- */
 
@@ -1104,27 +1206,24 @@ footer {
 
 }
 
-/* ----------------------------------------Below is the media query that will ensure responsiveness for devices with a screen size of 1024px by 769px (small screens, laptops etc)------------------------------------------------------- */
+/* ---------------------------------------------Below is the media query that will ensure responsiveness for devices with a screen size of 320px by 480px------------------------------------------------------------------ */
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
 
     header {
-        height: 4rem;
+        height: 5rem;
         background-image: linear-gradient(to right, white 30%, white 85%);
         border-bottom: .1rem solid rgba(255, 81, 0, 0.9);
     }
 
     #logo {
-        font-size: 2.3rem;
-        margin: .6rem .6rem;
-        letter-spacing: 5px;
-        ;
+        font-size: 1.3rem;
+        margin: .1rem .2rem;
     }
 
     #nav-menu {
-        font-size: 1.4rem;
-        letter-spacing: 3px;
+        font-size: .9rem;
+        letter-spacing: 1px;
         font-weight: 600;
     }
 
@@ -1134,8 +1233,7 @@ footer {
     }
 
     #nav-menu li {
-        margin-right: 1.5rem;
-        margin-top: .5rem;
+        margin-right: 1.3rem;
     }
 
     #nav-menu a {
@@ -1159,7 +1257,7 @@ footer {
 
     #hero-image {
         height: 30rem;
-        background: url('../images/hero-image.jpg') no-repeat center center;
+        background: url('../images/hero-image-responsive-1.webp') no-repeat center center;
     }
 
     /* Adds styling for the zoom animation, specifically the zoom level */
@@ -1168,22 +1266,22 @@ footer {
 
     #hero-cover-text,
     #hero-cover-text h2 {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
     #hero-cover-text {
         font-size: 1.5rem;
         letter-spacing: 2px;
         font-weight: 500;
-        width: 90%;
+        width: 95%;
         height: 20%;
-        padding: 1rem 1rem 6.5rem 1rem;
-        top: 4rem;
+        padding: 1rem 1rem 8rem 1rem;
+        top: 2rem;
     }
 
     #hero-cover-text h3 {
         font-weight: 500;
-        font-size: 1.9rem;
+        font-size: 2rem;
     }
 
 
@@ -1218,10 +1316,7 @@ footer {
     /* Below is the styling for the horizontal break for the site purpose headings shown on the home page */
 
     hr {
-        border-top: .25rem solid rgba(255, 81, 0, 0.9);
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
+        display: none;
     }
 
     /* Below is the styling for headings shown on the left side of the site purpose section shown on the home page */
@@ -1248,7 +1343,7 @@ footer {
 
     #site-purpose p {
         height: 5rem;
-        width: 80%;
+        width: 96%;
         text-align: center;
         margin: 1rem auto;
         font-weight: 400;
@@ -1265,7 +1360,7 @@ footer {
     /* MAIN MENU STYLING */
 
     #main-menu {
-        width: 60%;
+        width: 100%;
         flex-direction: column;
     }
 
@@ -1327,7 +1422,7 @@ footer {
     /* Targets the send message button */
 
     .send-message-button {
-        width: 30%;
+        width: 90%;
     }
 
     /* CONTENT STYLING (STAY, EAT AND GO PAGES) */
@@ -1379,8 +1474,8 @@ footer {
         margin-left: .5rem;
         margin-right: .5rem;
         margin-top: 1rem;
-        padding: 2.5rem;
-        font-size: 1.6rem;
+        padding: 1rem;
+        font-size: 1.2rem;
         font-weight: 500;
     }
 
@@ -1388,77 +1483,9 @@ footer {
         margin-left: .5rem;
         margin-right: .5rem;
         margin-top: 1rem;
-        padding: 2.5rem;
-        font-size: 1.6rem;
-        font-weight: 500;
-    }
-
-}
-
-/* ----------------------------Below is the media query that will ensure responsiveness for devices with a screen size of 1200px by 1025px (small screens, laptops etc)-------------------------------------------------------- */
-
-
-@media screen and (max-width: 1200px) {
-
-    /* HERO IMAGE STYLING */
-
-    /* hero image cover text styling */
-
-    #hero-cover-text,
-    #hero-cover-text h2 {
-        font-size: 5rem;
-    }
-
-    #hero-cover-text {
-        font-size: 3rem;
-        width: 75%;
-
-    }
-
-    /* SITE PURPOSE STYLING */
-
-    #site-purpose {
+        padding: 1rem;
         font-size: 1.2rem;
-    }
-
-    /* Below is the styling for the 'prompt to choose option' from the main menu on the home page, this will be shown below the site purpose section */
-
-    #prompt-to-choose-option {
-        font-size: 1.4rem;
-    }
-
-    /* MAIN MENU STYLING */
-
-    #main-menu {
-        width: 70%;
-    }
-
-    .main-menu-panel {
-        height: 7rem;
-        font-size: 2.5rem;
-    }
-
-    .main-menu-panel:hover {
-        height: 7rem;
-        font-size: 2.5rem;
-    }
-
-    #main-menu a {
-        font-size: 1.8rem;
-    }
-
-    /* CONTENT STYLING (STAY, EAT AND GO PAGES) */
-
-    /* Styling below targets the main content container within which the individual item 'content card' will sit */
-
-    .content-container {
-        width: 70%;
-    }
-
-    /* Styling below targets the images within the content card */
-
-    .content-image-container {
-        width: 70%;
+        font-weight: 500;
     }
 
 }
