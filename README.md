@@ -1,108 +1,221 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Love Amsterdam
 
-Welcome DannyGilligan,
+The Love Amsterdam website is aimed at anyone who is undertaking a trip on short notice to Amsterdam and needs a quick list of places where they can stay, eat and go to make the most of their time in this wonderful city!
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of the Love Amsterdam website will find a curated list of hotels, restaurants and venues that are ideal for travellers who are here for a short stay. The aim of the site is to provide a 'screened' list of venues that can be ranked high in 4 main categories: Quality, Accessibility, Availability and Reliability.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![image](https://user-images.githubusercontent.com/112653322/198978502-c813391e-2a15-47db-be96-42af17074a82.png)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
 
-A blue button should appear to click: _Make Public_,
+* **Navigation**
 
-Another blue button should appear to click: _Open Browser_.
+  *  At the top of each page across the site, a navigation menu allows the user to quickly and conveniently access the information they need, such as, 'Where to Stay', 'Where to Eat' and 'Where to Go'.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  * The navigation options are clear and include visual clues upon hovering over the links to emphasise the user interactivity, and an orange underlined border will be displayed on the page the user is currenlty active on.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![image](https://user-images.githubusercontent.com/112653322/198980680-1e4cb0aa-98c2-46c2-9be2-d6cf1af78e95.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
+* **The Header**
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  * The header emphasises the site's purpose by stating "*Your Quick Trip Short List*".
+  * There is also an impactful statement highlighting the value provided by the site by stating "*We've done the rushing, so you don't have to*".
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![image](https://user-images.githubusercontent.com/112653322/198980925-83c26901-0575-41e5-9e0a-01bf923a960c.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* **The Site Purpose**
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  * This section gives the user a quick overview of what the site's aims are and how we add value to their experience.
+  * We provide reassurance to the user by detailing the 4 areas that we believe are important to every traveller, but particularly those who are visting with short notice, and need information quickly.
+  * The areas of Quality, Accessibility, Availability and Reliability are part of the screening process for any listing on the site.
+  
+  
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![image](https://user-images.githubusercontent.com/112653322/198980990-983d0a61-fd19-4f97-b5ae-c1a47836987b.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* **The Main Menu**
+  * The home page includes a large 'Main Menu' with a prompt to action in the form of "Now, all you have to do, is choose*".
+  * This menu aims to highlight the ease of use of the site and the quick access to information.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![image](https://user-images.githubusercontent.com/112653322/198981077-e544421a-c6b8-49ff-801b-37e7c143967c.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* **Where to Stay**
+  * The Where to Stay section provides the user with a list of 5 curated hotels that are ideal for a quick trip.
+  * The name, address, photo, text description, link to Google maps and a link to their website are all included for each listing.
+  
+  ![Where to Stay](https://user-images.githubusercontent.com/112653322/198987827-a290989f-a547-49c3-a34c-f0d970f7cad3.gif)
 
-------
 
-## FAQ about the uptime script
+* **Where to Eat**
+  * The Where to Stay section provides the user with a list of 5 curated restaurants that are ideal for a quick trip.
+  * The name, address, photo, text description, link to Google maps and a link to their website are all included for each listing.
+  
+  ![Where to Eat](https://user-images.githubusercontent.com/112653322/198988268-a22111a2-58a9-4f2e-93da-eb593ac8e87b.gif)
 
-**Why have you added this script?**
+* **Where to Go**
+  * The Where to Stay section provides the user with a list of 5 curated venues (museums etc) that are ideal for a quick trip.
+  * The name, address, photo, text description, link to Google maps and a link to their website are all included for each listing.
+  
+  ![Where to Go](https://user-images.githubusercontent.com/112653322/198988611-7e6571e4-38bf-4ee4-a82e-6270c4909e01.gif)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* **Contact**
+  * There is also a convenient contact form available to users which allows for direct communication.
+  * This will allow for greater engagement with our users and allow us to receive feedback.
+  
+  
+![Contact](https://user-images.githubusercontent.com/112653322/198989940-d272688e-b53f-4e4e-877b-ce9131e7ada6.gif)
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+***
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* **Testing**
+  * The site was tested on various browsers (Chrome, Edge, Firefox) and devices (laptop, mobile phone, tablet) and functioned as expected.
+  * The project is responsive across different devices, however a bug has been identified with the navigation bar on smaller screens. This is in the process of being resolve, however, due to the proximity to the project deadline, it has not been fixed before deployment.
+  * The form works as expected, required fields are enforced along with a tip letting the user know if a field has not been filled in, the 'Send Message' button is linked to the Code Institute form dump page.
+  
+ ***
+ 
+ * **Bugs**
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Solved Bugs
+  * During the coding process, the code was tested with the HTML and CSS validators, errors were identified and resolved based on the output from the validation.
+  * I encountered an issue when making the 'main menu' options responsive on smaller screens, they would not display correctly, however, once they were displayed using 'flex' and with a direction of 'column', the issue was resolved.
+  
+Unsolved Bugs
+  * The navigation bar has lost responsiveness on smaller screen sizes, I am currently investigating this issue, however it will not be fixed in time for the deployment deadline.
+  
+ 
+  ![Unsolved Bug Final Version](https://user-images.githubusercontent.com/112653322/198993951-4fd470b9-76a2-405d-9437-08a40d444d07.gif)
+  
+  
+***
 
-**So….?**
+* **Validator Testing**
+  * HTML: Passed on official W3C validator
+  * CSS: Passed on official W3C validator
+  
+  
+***
+ 
+ ## Deployment
+ 
+ * The site was deployed on Github pages
+ * Process followed was clicking into the Settings tab, then navigating to the pages section, the selecting Main branch.
+ * The deployed site can be found here [here](https://dannygilligan.github.io/love-amsterdam/index.html)
+ 
+***
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Credits
 
-**Can I opt out?**
+**Content**
+* Code for the footer and social media links was adapated from the Love Running project.
+* Photo and text descriptions for the Hotels, Restaurants and Venues were sourced from the links below:
+  * Leonardo Hotel
+    * Picture: [here](https://www.booking.com/hotel/nl/leonardo-hotel-amsterdam-rembrandtpark.en-gb.html?aid=303948&label=amsterdam-URMXTgUl9nTGrAO8F86PHQS392876322154%3Apl%3Ata%3Ap11340%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-15722280%3Alp9065254%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Yf5EcukO1MOGLSSAuId8ToA&sid=68b80252669466c8daaa4726e046df40&all_sr_blocks=39714812_91474090_0_2_0&checkin=2022-11-09&checkout=2022-11-10&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=39714812_91474090_0_2_0&hpos=1&matching_block_id=39714812_91474090_0_2_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=distance_from_search&sr_pri_blocks=39714812_91474090_0_2_0__13174&srepoch=1667165936&srpvid=b48c98374fc90282&type=total&ucfs=1&activeTab=photosGallery)
+    * Text: [here](https://www.booking.com/hotel/nl/leonardo-hotel-amsterdam-rembrandtpark.en-gb.html?aid=303948&label=amsterdam-URMXTgUl9nTGrAO8F86PHQS392876322154%3Apl%3Ata%3Ap11340%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-15722280%3Alp9065254%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Yf5EcukO1MOGLSSAuId8ToA&sid=68b80252669466c8daaa4726e046df40&all_sr_blocks=39714812_91474090_0_2_0&checkin=2022-11-09&checkout=2022-11-10&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=39714812_91474090_0_2_0&hpos=1&matching_block_id=39714812_91474090_0_2_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=distance_from_search&sr_pri_blocks=39714812_91474090_0_2_0__13174&srepoch=1667165936&srpvid=b48c98374fc90282&type=total&ucfs=1&activeTab=main)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+  * Park Plaza Victoria
+    * Picture: [here](https://www.booking.com/hotel/nl/victoria.en-gb.html?aid=303948&label=amsterdam-URMXTgUl9nTGrAO8F86PHQS392876322154%3Apl%3Ata%3Ap11340%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-15722280%3Alp9065254%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Yf5EcukO1MOGLSSAuId8ToA&sid=68b80252669466c8daaa4726e046df40&activeTab=photosGallery)
+    * Text: [here](https://www.booking.com/hotel/nl/victoria.en-gb.html?aid=303948&label=amsterdam-URMXTgUl9nTGrAO8F86PHQS392876322154%3Apl%3Ata%3Ap11340%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-15722280%3Alp9065254%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Yf5EcukO1MOGLSSAuId8ToA&sid=68b80252669466c8daaa4726e046df40)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+  * Inntel Hotels Amsterdam
+    * Picture: [here](https://www.tripadvisor.com/Hotel_Review-g188590-d230113-Reviews-Inntel_Hotels_Amsterdam_Centre-Amsterdam_North_Holland_Province.html#/media/230113/615361641:p/?albumid=101&type=0&category=101)
+    * Text: [here](https://www.tripadvisor.com/Hotel_Review-g188590-d230113-Reviews-Inntel_Hotels_Amsterdam_Centre-Amsterdam_North_Holland_Province.html)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+  * Park Inn by Radisson
+    * Picture: [here](https://www.booking.com/hotel/nl/park-inn-by-radisson-amsterdam-city-west.en-gb.html?aid=303948&label=amsterdam-URMXTgUl9nTGrAO8F86PHQS392876322154%3Apl%3Ata%3Ap11340%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-15722280%3Alp9065254%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Yf5EcukO1MOGLSSAuId8ToA&sid=68b80252669466c8daaa4726e046df40&all_sr_blocks=229377404_99726771_2_0_0&checkin=2022-11-09&checkout=2022-11-10&dist=0&group_adults=2&group_children=0&hapos=75&highlighted_blocks=229377404_99726771_2_0_0&hpos=25&matching_block_id=229377404_99726771_2_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=distance_from_search&sr_pri_blocks=229377404_99726771_2_0_0__14078&srepoch=1667168447&srpvid=b48c98374fc90282&type=total&ucfs=1&activeTab=photosGallery)
+    * Text: [here](https://www.booking.com/hotel/nl/park-inn-by-radisson-amsterdam-city-west.en-gb.html?aid=303948&label=amsterdam-URMXTgUl9nTGrAO8F86PHQS392876322154%3Apl%3Ata%3Ap11340%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-15722280%3Alp9065254%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Yf5EcukO1MOGLSSAuId8ToA&sid=68b80252669466c8daaa4726e046df40&all_sr_blocks=229377404_99726771_2_0_0;checkin=2022-11-09;checkout=2022-11-10;dist=0;group_adults=2;group_children=0;hapos=75;highlighted_blocks=229377404_99726771_2_0_0;hpos=25;matching_block_id=229377404_99726771_2_0_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=distance_from_search;sr_pri_blocks=229377404_99726771_2_0_0__14078;srepoch=1667168447;srpvid=b48c98374fc90282;type=total;ucfs=1&#Visiting)
 
-Happy coding!
+
+  * NH Collection Barbizon Palace
+    * Picture: [here](https://www.google.com/travel/hotels/entity/CgoI68yByc-wpMwOEAE/lightbox/CAoSLEFGMVFpcE5SVGxBeDlvNU5KaHdGdnZ1NHp5a2hUWEZ5MExwZ2d5MFlMbEIw?g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4306835%2C4518326%2C4597339%2C4718358%2C4723331%2C4731329%2C4754388%2C4757164%2C4814050%2C4816977%2C4821091%2C4852066%2C4861688%2C4864715%2C4877115%2C4878644%2C4879519%2C4881561%2C4884949&hl=en-NL&gl=nl&cs=1&ssta=1&grf=EmMKLAgOEigSJnIkKiIKBwjnDxABGBISBwjnDxABGBMgADAeQMoCSgcI5g8QChgeCjMIDBIvEi2yASoSKAomCiQweDQ3YzYwOWI5Y2U0YWZiNDM6MHhlOTg5MTg0ZjkyMDY2NmI&rp=EOvMgcnPsKTMDhDrzIHJz7CkzA44AkAASAHAAQI&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwjAh7SKhIn7AhUAAAAAHQAAAAAQAw&utm_campaign=sharing&utm_medium=link&utm_source=htls)
+    * Text: [here](https://www.trivago.com/en-US/opr/hotels-near-amsterdam-centraal?search=500-206596;dr-20221031-20221101)
+
+
+  * Janz
+    * Picture: [here](https://www.google.com/maps/place/Restaurant+Jansz./@52.3723805,4.8842742,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPxsYI1QO3_f1anFJPzU9ZKp37bA39V5C_G0FOK!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPxsYI1QO3_f1anFJPzU9ZKp37bA39V5C_G0FOK%3Dw203-h104-k-no!7i3364!8i1739!4m5!3m4!1s0x0:0x20406a6f0b151ec3!8m2!3d52.3724441!4d4.884263)
+    * Text: [here](https://www.timeout.com/amsterdam/restaurants/best-restaurants-in-amsterdamClassics)
+
+
+
+  * Cannibale Royale
+    * Picture: [here](https://www.google.com/maps/place/Cannibale+Royale+Handboogstraat/@52.3685444,4.8891258,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPkKitzhtR2oMqUkwysrzyVFPG1FpYdOo4qQ2zl!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPkKitzhtR2oMqUkwysrzyVFPG1FpYdOo4qQ2zl%3Dw203-h270-k-no!7i3024!8i4032!4m9!1m2!2m1!1scannibale+royale!3m5!1s0x47c609c1c6ca4d75:0xe805a7902d7a36cb!8m2!3d52.3680453!4d4.8903418!15sChBjYW5uaWJhbGUgcm95YWxlIgOIAQFaEiIQY2FubmliYWxlIHJveWFsZZIBCnJlc3RhdXJhbnTgAQA)
+    * Text: [here](https://www.timeout.com/amsterdam/restaurants/best-restaurants-in-amsterdam)
+
+
+  * Bougainville
+    * Picture: [here](https://guide.michelin.com/en/noord-holland/amsterdam/restaurant/bougainville)
+    * Text: [here](https://guide.michelin.com/en/noord-holland/amsterdam/restaurant/bougainvilleAt)
+
+
+  * Manneken Pis
+    * Picture: [here](https://www.google.com/maps/place/Manneken+Pis+Damrak/@52.3758032,4.8963328,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOm6kBDRV4R0iC-z6GjJuBlPGW3koAMvDYhpZ1j!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOm6kBDRV4R0iC-z6GjJuBlPGW3koAMvDYhpZ1j%3Dw114-h86-k-no!7i4032!8i3024!4m5!3m4!1s0x0:0x2f84f8fadb18ca7c!8m2!3d52.3757469!4d4.8961704)
+    * Text: [here](https://www.10best.com/destinations/netherlands/amsterdam/old-city-centre-new-side/restaurants/manneken-pis/)
+
+
+  * FuLu Mandarijn
+    * Picture: [here](https://www.google.com/maps/place/FuLu+Mandarijn/@52.3716576,4.8929286,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOnOgJrS9eC4r_VSxJsEuuHQRDixKcATirCKjM0!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOnOgJrS9eC4r_VSxJsEuuHQRDixKcATirCKjM0%3Dw203-h152-k-no!7i2432!8i1824!4m5!3m4!1s0x0:0xce97f18383ee64c6!8m2!3d52.3716937!4d4.8925949)
+    * Text: [here](https://fulumandarijn.com/)
+
+
+
+  * Rijksmuseum
+    * Picture: [here](https://www.lonelyplanet.com/the-netherlands/amsterdam/vondelpark-and-around/attractions/rijksmuseum/a/poi-sig/387159/1323043)
+    * Text: [here](https://artsandculture.google.com/partner/rijksmuseum)
+
+
+
+  * Anne Frank House
+    * Picture: [here](https://www.amsterdamtips.com/anne-frank-house)
+    * Text: [here](https://www.amsterdamtips.com/anne-frank-house)
+
+
+  * Van Gogh Museum
+    * Picture: [here](https://www.google.com/maps/place/Van+Gogh+Museum/@52.3584159,4.8810756,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPYDeQ82W0uvk0nJBzI4wQzZhuFijnAxPOIwZTq!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPYDeQ82W0uvk0nJBzI4wQzZhuFijnAxPOIwZTq%3Dw203-h135-k-no!7i3372!8i2251!4m7!3m6!1s0x0:0xc22828aef97cc51a!8m2!3d52.3584159!4d4.8810756!14m1!1BCgIgAQ)
+    * Text: [here](https://artsandculture.google.com/partner/van-gogh-museum)
+
+
+  * National Maritime Museum
+    * Picture: [here](https://marineindustrynews.co.uk/voc-amsterdam-back-at-national-maritime-museum/)
+    * Text: [here](https://www.hetscheepvaartmuseum.com/)
+
+
+  * Canal Cruise
+    * Picture: [here](https://www.citymom.nl/wp-content/uploads/2022/03/LOVERS.jpg)
+    * Text: [here](https://www.lovers.nl/en/)
+    
+    
+    
+  * Hero Image
+      * Picture: [here](https://unsplash.com/photos/pb08GJjen5A)
+      
+***
+
+## Thank you to my mentor and all my classmates for the support!
+
+
+
+
+
+
+
+
+
+
