@@ -116,6 +116,16 @@ Unresolved Bugs
 
 ![image](https://user-images.githubusercontent.com/112653322/215072307-e26c0ada-8c2c-48e1-ac33-e68d1848ca3e.png)
 
+  * I'm unable to push any changes to git that would fix the bugs found, it is related to an 'unfinished merge' that is being investigated
+  
+![image](https://user-images.githubusercontent.com/112653322/215075521-e9484bb5-50a8-4c11-aa84-ece37e92dcc6.png)
+  
+  * There is one parse error on line 1941 that was shown in the CSS validation, however I'm unable to fix this due to the previous bug listed
+  
+![image](https://user-images.githubusercontent.com/112653322/215075728-305f6af7-9e5d-46e9-90ad-c3aa4f34c81f.png)
+
+
+
 
   * While trying to fix the issue related to losing responsiveness on Microsoft Edge (which can be resolved by ajdusting the font sizes used), I ran into an issue with pushing the changes the Git Hub, see screenshot below. There was not time left to fix this issue!
 
@@ -126,7 +136,10 @@ Unresolved Bugs
 
 * **Validator Testing**
   * HTML: Passed on official W3C validator
-  * CSS: Passed on official W3C validator
+  * CSS: Before submission one parse error was found, due to another bug that is preventing me from pushing changees to git, I was unable to save the changes to fix this
+  
+  ![image](https://user-images.githubusercontent.com/112653322/215075290-a15a2019-70b1-4d55-858d-316e4d71394d.png)
+
 
 
 
