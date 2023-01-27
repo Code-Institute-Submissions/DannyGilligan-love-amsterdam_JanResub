@@ -89,8 +89,11 @@ Users of the Love Amsterdam website will find a curated list of hotels, restaura
 
 * **Testing**
   * The site was tested on various browsers (Chrome, Edge, Firefox) and devices (laptop, mobile phone, tablet) and functioned as expected.
-  * The project is responsive across different devices, however a bug has been identified with the navigation bar on smaller screens. This is in the process of being resolve, however, due to the proximity to the project deadline, it has not been fixed before deployment.
+  * The project is responsive across different devices.
   * The form works as expected, required fields are enforced along with a tip letting the user know if a field has not been filled in, the 'Send Message' button is linked to the Code Institute form dump page.
+  * Lighthouse: The site scored well when tested in the Chrome browser.
+  
+![image](https://user-images.githubusercontent.com/112653322/215018351-1aa8486a-5aa6-458a-ba55-281489527e1c.png)
   
  ***
  
@@ -108,6 +111,10 @@ Solved Bugs
 * **Validator Testing**
   * HTML: Passed on official W3C validator
   * CSS: Passed on official W3C validator
+
+
+
+
   
   
 ***
@@ -205,6 +212,10 @@ Solved Bugs
     
   * Hero Image
       * Picture: [here](https://unsplash.com/photos/pb08GJjen5A)
+
+  * Hamburger Menu
+      * Coding Nepal YouTube Channel: [here](https://www.youtube.com/watch?v=oLgtucwjVII)
+
       
 ***
 
