@@ -1687,9 +1687,9 @@ footer {
 @media screen and (max-width: 418px) {
 
     label.logo{
-        font-size: 1rem;
-        padding-left: 10px;
-        font-weight: 300;
+        font-size: .9rem;
+        padding-left: 2px;
+        font-weight: 200;
     }
 
 }
@@ -1765,7 +1765,7 @@ footer {
 
     #hero-cover-text,
     #hero-cover-text h2 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     #heart-icon {
