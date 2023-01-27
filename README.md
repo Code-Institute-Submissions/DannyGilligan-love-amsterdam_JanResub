@@ -28,7 +28,7 @@ Users of the Love Amsterdam website will find a curated list of hotels, restaura
 * **The Header**
 
   * The header emphasises the site's purpose by stating "*Your Quick Trip Short List*".
-  * There is also an impactful statement highlighting the value provided by the site by stating "*We've done the rushing, so you don't have to*".
+  * There is also an impactful statement highlighting the value provided by the site by stating "*We love last minute trips, but we definitely don't love the stress of last minute planning. In fact, we'd rather someone else did it! So at Love Amsterdam, we've done the rushing, so you don't have to. Here you can find the best places to stay, eat and go to make the most of your Amsterdam experience!*".
 
 
 ![image](https://user-images.githubusercontent.com/112653322/198980925-83c26901-0575-41e5-9e0a-01bf923a960c.png)
