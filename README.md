@@ -12,7 +12,7 @@ Users of the Love Amsterdam website will find a curated list of hotels, restaura
 
 ## Colour Scheme
 
-The Primary colours used across the site were chosen for cultural significane, the blue is a close match to the official colour found in the Netherlands' flag, the orange association with the Netherlands has been popularised by the National soccer team.
+The Primary colours used across the site were chosen for cultural significance, the blue is a close match to the official colour found in the Netherlands' flag, the orange association with the Netherlands has been popularised by the National soccer team.
 
 
 ## Features
