@@ -6,7 +6,8 @@ Users of the Love Amsterdam website will find a curated list of hotels, restaura
 
 
 
-![image](https://user-images.githubusercontent.com/112653322/198978502-c813391e-2a15-47db-be96-42af17074a82.png)
+[image](https://user-images.githubusercontent.com/112653322/215016513-7ffb3627-6b73-42be-8f7e-30f6d7137ccb.png)
+
 
 
 
