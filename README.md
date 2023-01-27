@@ -93,7 +93,7 @@ The Primary colours used across the site were chosen for cultural significane, t
 * **Testing**
   * The site was tested on various browsers and devices (laptop, mobile phone, tablet). For Chrome and Firefox, the site behaved as expected and maintained responsiveness. However, for Edge, the site lost responsiveness at smaller screen sizes, this is currently being investigated. See screenshot below:
   
-  ![image](https://user-images.githubusercontent.com/112653322/215072307-e26c0ada-8c2c-48e1-ac33-e68d1848ca3e.png)
+![image](https://user-images.githubusercontent.com/112653322/215072307-e26c0ada-8c2c-48e1-ac33-e68d1848ca3e.png)
 
  
   * The form works as expected, required fields are enforced along with a tip letting the user know if a field has not been filled in, the 'Send Message' button is linked to the Code Institute form dump page.
@@ -111,6 +111,16 @@ Solved Bugs
   * The navigation bar lost responsiveness on smaller screen sizes, a hamburger menu feature was developed to solve this.
   * Several issues relating to the <link> tag being used for links on the Stay, Eat, Go pages when checked in the HTML validator, which have now been resolved. This issue was not identified during the initial deployment as only the Index page was checked (the other pages were accidentally not checked in the validator). 
   
+Unresolved Bugs
+  * The site has lost responsiveness using Microsoft Edge.
+
+![image](https://user-images.githubusercontent.com/112653322/215072307-e26c0ada-8c2c-48e1-ac33-e68d1848ca3e.png)
+
+
+  * While trying to fix the issue related to losing responsiveness on Microsoft Edge (which can be resolved by ajdusting the font sizes used), I ran into an issue with pushing the changes the Git Hub, see screenshot below. There was not time left to fix this issue!
+
+![image](https://user-images.githubusercontent.com/112653322/215073060-c572cf40-02db-43aa-b6fd-7e5a89bdbd86.png)
+
   
 ***
 
