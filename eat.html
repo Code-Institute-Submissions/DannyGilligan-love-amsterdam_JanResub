@@ -17,24 +17,30 @@
 <body>
     <!-- Below is the structure for the header of the page, this contains the 'Love Amsterdam ♥' logo along with the navigation links for the site -->
     <header>
-        <a href="index.html">
-            <h1 id="logo">Love Amsterdam <i class="fa-solid fa-heart"></i></h1>
-        </a>
         <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">
+            <a id="logo-link" href="index.html">Love Amsterdam <i class="fa-solid fa-heart"></i>
+            </a>
+            </label>
             <ul id="nav-menu">
                 <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <a href="go.html">Go</a>
-                <li>
-                    <a href="eat.html" class="active">Eat</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="stay.html">Stay</a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="eat.html" class="active">Eat</a>
+                </li>
+                <li>
+                    <a href="go.html">Go</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
