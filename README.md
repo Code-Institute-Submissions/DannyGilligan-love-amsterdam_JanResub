@@ -91,8 +91,11 @@ The Primary colours used across the site were chosen for cultural significane, t
 ***
 
 * **Testing**
-  * The site was tested on various browsers (Chrome, Edge, Firefox) and devices (laptop, mobile phone, tablet) and functioned as expected.
-  * The project is responsive across different devices.
+  * The site was tested on various browsers and devices (laptop, mobile phone, tablet). For Chrome and Firefox, the site behaved as expected and maintained responsiveness. However, for Edge, the site lost responsiveness at smaller screen sizes, this is currently being investigated. See screenshot below:
+  
+  ![image](https://user-images.githubusercontent.com/112653322/215072307-e26c0ada-8c2c-48e1-ac33-e68d1848ca3e.png)
+
+ 
   * The form works as expected, required fields are enforced along with a tip letting the user know if a field has not been filled in, the 'Send Message' button is linked to the Code Institute form dump page.
   * Lighthouse: The site scored well when tested in the Chrome browser.
   
