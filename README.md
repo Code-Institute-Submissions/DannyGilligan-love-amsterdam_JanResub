@@ -23,6 +23,9 @@ Users of the Love Amsterdam website will find a curated list of hotels, restaura
 
 ![image](https://user-images.githubusercontent.com/112653322/215016805-feaeaf9a-e2f5-403a-9f17-2fbee32f355c.png)
 
+ * On smaller screens, a hamburger menu feature has been added to allow for easy access to navigation links.
+
+![image](https://user-images.githubusercontent.com/112653322/215017393-af8e460e-5c39-44ac-a7cd-373d75a4d9c9.png)
 
 
 * **The Header**
@@ -31,7 +34,7 @@ Users of the Love Amsterdam website will find a curated list of hotels, restaura
   * There is also an impactful statement highlighting the value provided by the site by stating "*We love last minute trips, but we definitely don't love the stress of last minute planning. In fact, we'd rather someone else did it! So at Love Amsterdam, we've done the rushing, so you don't have to. Here you can find the best places to stay, eat and go to make the most of your Amsterdam experience!*".
 
 
-![image](https://user-images.githubusercontent.com/112653322/198980925-83c26901-0575-41e5-9e0a-01bf923a960c.png)
+![image](https://user-images.githubusercontent.com/112653322/215017159-0d94bb1d-411d-4a87-b2a7-b8062ff56bae.png)
 
 * **The Site Purpose**
 
@@ -96,12 +99,8 @@ Users of the Love Amsterdam website will find a curated list of hotels, restaura
 Solved Bugs
   * During the coding process, the code was tested with the HTML and CSS validators, errors were identified and resolved based on the output from the validation.
   * I encountered an issue when making the 'main menu' options responsive on smaller screens, they would not display correctly, however, once they were displayed using 'flex' and with a direction of 'column', the issue was resolved.
-  
-Unsolved Bugs
-  * The navigation bar has lost responsiveness on smaller screen sizes, I am currently investigating this issue, however it will not be fixed in time for the deployment deadline.
-  
- 
-  ![Unsolved Bug Final Version](https://user-images.githubusercontent.com/112653322/198993951-4fd470b9-76a2-405d-9437-08a40d444d07.gif)
+  * The navigation bar lost responsiveness on smaller screen sizes, a hamburger menu feature was developed to solve this.
+  * Several issues relating to the <link> tag being used for links on the Stay, Eat, Go pages when checked in the HTML validator, which have now been resolved. This issue was not identified during the initial deployment as only the Index page was checked (the other pages were accidentally not checked in the validator). 
   
   
 ***
