@@ -9,6 +9,9 @@
     margin: 0;
     padding: 0;
     border: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 /* Font family for body element */
@@ -24,6 +27,7 @@ body {
 
 /* Header styling with linear gradient and sticky position */
 
+/*TEST
 header {
     height: 4rem;
     background-image: linear-gradient(to right, white 30%, rgb(0, 61, 165) 85%);
@@ -32,7 +36,7 @@ header {
     top: 0;
     z-index: 2;
 }
-
+*/
 
 /* HEADINGS AND LOGO STYLING */
 
@@ -48,6 +52,9 @@ h2 {
 
 /* Set logo Float value to ensure is stays to the left of the screen and increase logo size */
 
+
+/*TEST The syling below will be replaced by a responsive hamburger menu
+
 #logo {
     Float: left;
     font-size: 2.5rem;
@@ -56,7 +63,7 @@ h2 {
 }
 
 /*NAV MENU STYLING */
-
+/*TEST
 #nav-menu {
     display: block;
     font-size: 1.5rem;
@@ -65,14 +72,14 @@ h2 {
 }
 
 /* Styles the menu list items and floats them to the right of the screen */
-
+/*TEST
 #nav-menu,
 #logo {
     line-height: 3rem;
 }
 
 /* Fixes the line height of the nav-menu and logo to give visual alignment */
-
+/*TEST
 #nav-menu li {
     float: right;
     list-style-type: none;
@@ -80,7 +87,7 @@ h2 {
 }
 
 /* Styles the anchors in the nav-menu to remove decoration and set color */
-
+/*TEST
 #nav-menu a {
     text-decoration: none;
     color: white;
@@ -88,17 +95,73 @@ h2 {
 }
 
 /*Gives an underline effect on hover for nav-menu links */
-
+/*TEST
 #nav-menu a:hover {
     border-bottom: .5rem solid rgba(255, 255, 255, 0.6);
 }
 
 /*Styles the nav-menu link for the active page */
-
+/*TEST
 .active {
     border-bottom: .5rem solid rgba(255, 81, 0, 0.9);
 
 }
+*/
+
+nav { background: red;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover {
+    background: green;
+    transition: .5s;
+    border-radius: 3px;
+
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    display: none;
+}
+
 
 /* HERO IMAGE STYLING */
 
@@ -635,12 +698,17 @@ footer {
 
 @media screen and (max-width: 1024px) {
 
+    /*TEST
     header {
         height: 5rem;
         background-image: linear-gradient(to right, white 30%, white 85%);
         border-bottom: .1rem solid rgba(255, 81, 0, 0.9);
     }
 
+    */
+
+    /*TEST
+    
     #logo {
         font-size: 2.3rem;
         margin: .6rem .6rem;
@@ -648,6 +716,10 @@ footer {
         ;
     }
 
+    */
+
+    /*TEST
+    
     #nav-menu {
         font-size: 1.4rem;
         letter-spacing: 3px;
@@ -676,6 +748,9 @@ footer {
         border-bottom: .3rem solid rgba(255, 81, 0, 0.9);
 
     }
+
+    */
+
 
     #hero-container {
         height: 30rem;
@@ -917,6 +992,63 @@ footer {
         padding: 2.5rem;
         font-size: 1.6rem;
         font-weight: 500;
+    }
+
+}
+
+/* -----------------------------------------------------------Below is the media query that will ensure responsiveness for devices with a max-width of 952px ---------------------------------------------------------------- */
+
+@media (max-width: 952px) {
+
+    .checkbtn {
+        display: none;
+    }
+
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 858px) {
+
+    .checkbtn{
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: grey;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        z-index: 2;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,a.active {
+        background: none;
+        color: pink;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
     }
 
 }
@@ -1501,7 +1633,7 @@ footer {
 
 /* ---------------------------------------------Below is the media query that will ensure responsiveness for devices with a screen size of 320px by 480px------------------------------------------------------------------ */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
 
     header {
         height: 4rem;
@@ -1514,6 +1646,8 @@ footer {
         margin-left: 2rem;
     }
 
+    /*TEST
+    
     #nav-menu {
         font-size: .9rem;
         letter-spacing: 1px;
@@ -1540,7 +1674,15 @@ footer {
     .active {
         border-bottom: .3rem solid rgba(255, 81, 0, 0.9);
 
-    }
+    } 
+    
+    */
+
+
+
+
+
+
 
     #hero-container {
         height: 30rem;
