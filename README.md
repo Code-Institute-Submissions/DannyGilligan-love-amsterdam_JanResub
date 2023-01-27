@@ -21,7 +21,7 @@ Users of the Love Amsterdam website will find a curated list of hotels, restaura
   * The navigation options are clear and include visual clues upon hovering over the links to emphasise the user interactivity, and an orange underlined border will be displayed on the page the user is currenlty active on.
 
 
-![image](https://user-images.githubusercontent.com/112653322/198980680-1e4cb0aa-98c2-46c2-9be2-d6cf1af78e95.png)
+![image](https://user-images.githubusercontent.com/112653322/215016805-feaeaf9a-e2f5-403a-9f17-2fbee32f355c.png)
 
 
 
